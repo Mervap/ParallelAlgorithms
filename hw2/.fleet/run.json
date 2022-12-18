@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "gradle",
+            "name": "Bench",
+            "tasks": ["jmh"],
+        },
+        {
+            "type": "gradle",
+            "name": "Test",
+            "tasks": ["test"],
+        },
+    ]
+}
